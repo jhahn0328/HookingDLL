@@ -1,0 +1,52 @@
+﻿빌드 시작: 2020-01-10 오후 4:31:08
+     1>2 노드의 "C:\dev\dll1\dll1\dll1.vcxproj" 프로젝트(Rebuild 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLL1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\dll1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>c:\dev\dll1\dll1\stdafx.cpp(42): warning C4172: 지역 변수 또는 임시 변수의 주소를 반환하고 있습니다.
+     1>c:\dev\dll1\dll1\stdafx.cpp(62): warning C4172: 지역 변수 또는 임시 변수의 주소를 반환하고 있습니다.
+     1>c:\dev\dll1\dll1\stdafx.cpp(81): warning C4172: 지역 변수 또는 임시 변수의 주소를 반환하고 있습니다.
+     1>c:\dev\dll1\dll1\stdafx.cpp(110): warning C4172: 지역 변수 또는 임시 변수의 주소를 반환하고 있습니다.
+     1>c:\dev\dll1\dll1\stdafx.cpp(127): warning C4172: 지역 변수 또는 임시 변수의 주소를 반환하고 있습니다.
+     1>c:\dev\dll1\dll1\stdafx.cpp(150): warning C4172: 지역 변수 또는 임시 변수의 주소를 반환하고 있습니다.
+     1>c:\dev\dll1\dll1\stdafx.cpp(173): warning C4172: 지역 변수 또는 임시 변수의 주소를 반환하고 있습니다.
+     1>c:\dev\dll1\dll1\stdafx.cpp(181): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\swprintf.inl(85) : 'swprintf' 선언을 참조하십시오.
+     1>c:\dev\dll1\dll1\stdafx.cpp(182): warning C4996: 'wcstok': This function or variable may be unsafe. Consider using wcstok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(330) : 'wcstok' 선언을 참조하십시오.
+     1>c:\dev\dll1\dll1\stdafx.cpp(187): warning C4996: 'wcstok': This function or variable may be unsafe. Consider using wcstok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(330) : 'wcstok' 선언을 참조하십시오.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLL1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\dll1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dll1.cpp
+         dll1.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLL1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>c:\dev\dll1\dll1\dllmain.cpp(64): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\swprintf.inl(85) : 'swprintf' 선언을 참조하십시오.
+     1>c:\dev\dll1\dll1\dllmain.cpp(65): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\swprintf.inl(85) : 'swprintf' 선언을 참조하십시오.
+     1>c:\dev\dll1\dll1\dllmain.cpp(66): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\swprintf.inl(85) : 'swprintf' 선언을 참조하십시오.
+     1>c:\dev\dll1\dll1\dllmain.cpp(67): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\swprintf.inl(85) : 'swprintf' 선언을 참조하십시오.
+     1>c:\dev\dll1\dll1\dllmain.cpp(137): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\swprintf.inl(85) : 'swprintf' 선언을 참조하십시오.
+     1>c:\dev\dll1\dll1\dllmain.cpp(153): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\swprintf.inl(85) : 'swprintf' 선언을 참조하십시오.
+     1>c:\dev\dll1\dll1\dllmain.cpp(183): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\swprintf.inl(85) : 'swprintf' 선언을 참조하십시오.
+     1>c:\dev\dll1\dll1\dllmain.cpp(233): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\swprintf.inl(85) : 'swprintf' 선언을 참조하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\dev\dll1\Debug\dll1.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\dev\dll1\Debug detours.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\dev\dll1\Debug\dll1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\dev\dll1\Debug\dll1.lib" /MACHINE:X86 /DLL Debug\dll1.obj
+         Debug\dllmain.obj
+         Debug\stdafx.obj
+         dll1.vcxproj -> C:\dev\dll1\Debug\dll1.dll
+       PostBuildEvent:
+         copy "C:\dev\dll1\Debug\dll1.dll" "C:\mydll\dll1.dll"
+         :VCEnd
+                 1개 파일이 복사되었습니다.
+     1>"C:\dev\dll1\dll1\dll1.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.21
